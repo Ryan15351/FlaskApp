@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.form{
+
+    background-color: none;
+    color: white;
+    max-width: 200px;
+    width: 70%;
+    max-height: 200px;
+    height: 70%;
+    display: flex;
+
+
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: -15%;
+    transform:translate(-50%, 120%) ;
+
+
+    /*btn btn-dark btn-md btn-block*/
+}
+
+.form button[class = "btn1"]{
+
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: -15%;
+    transform:translate(-50%, 500%)
+}
+
+.form button[class = "btn2"]{
+
+
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: -15%;
+    transform:translate(-50%, 500%)
+}
+
+.form button[class = "btn3"]{
+
+
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: -15%;
+    transform:translate(-50%, 450%)
+}
+
+.limpar{
+
+    
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform:translate(-50%, 10pc)
+    
+
+}
+
+.feitos{
+
+    position: static; 
+    color: white; 
+    top: 15%;
+    left: 50%;
+    right: 50%;
+    top: -15%;
+    transform: translate(50%, 70%);
+    background-color: black;
+
+    max-width: 50%;
+}
+
+.feitos button[class = "btn3"]{
+    
+    
+    position: fixed;
+    left: 50%;
+    top: 3pc;
+    transform:translate(-50%, 250px)
+
+
+}

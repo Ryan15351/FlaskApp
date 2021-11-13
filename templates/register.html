@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %} Register {% endblock %}
+
+{% block content %}
+
+<div class="row align-items-center h-100 ">
+    <div class="col-8 col-md-3 col-xs-8 mx-auto l-form">
+        <form class="form" method="POST" id="register-form" autocomplete="off">
+            
+            
+            <div class="form-group">
+                <input type="text" placeholder="Nome" class="form-control i-form" id="nome" name="nome">
+            </div>
+
+            <div class="form-group ">
+                <input type="email" placeholder="Email" class="form-control i-form" id="email" name="email">
+            </div>
+
+            <div class="form-group">
+                <input type="password" placeholder="Senha" class="form-control i-form" id="senha">
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="Numero" class="form-control i-form" id="numero">
+            </div>
+        
+
+
+            <div class="form-group">
+                <a href="home"></a><button type="button" onclick="register()" class="btn btn-dark btn-md btn-block">Register</button></a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+{% endblock %} 

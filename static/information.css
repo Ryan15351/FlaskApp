@@ -1,0 +1,67 @@
+.lown{
+
+    background-color: white;
+
+    max-width: 500px;
+    width: 70%;
+    max-height: 500px;
+    height: 70%;
+
+
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: -15%;
+    transform:translate(-50%, 50%) ;
+
+}
+
+.lown h3{
+
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
+
+.lown p{
+    text-align: justify;
+    font-weight: 600;
+}
+
+.lown img{
+
+    width: 120px;
+    height: 130px;
+}
+
+.lown img[class = js]{
+    padding: 0px;
+    position: static;
+    left: 50%;
+    top: -15%;
+    transform:translate(80%, 50%);
+    transition: 0.25s;
+     
+}
+
+.lown img[class = css]{
+    padding: 0px;
+    position: static;
+    left: 50%;
+    top: -15%;
+    transform:translate(29%, 50%);
+    transition: 0.25s;
+}
+
+.lown img[class = html]{
+    padding: 0px;
+    position: static;
+    left: 50%;
+    top: -15%;
+    transform:translate(-10%, 50%);
+    transition: 0.25s;
+}
+
+.lown img[class = html]:hover, .lown img[class = css]:hover,  .lown img[class = js]:hover{
+    padding: 12px;
+}  

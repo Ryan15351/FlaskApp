@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %} Compras {% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="../static/compras.css">
+    
+<div align="center">
+    Curso HTML <strong>R$ 130,00</strong><br>
+    qtd: <input type="number" value="1" min="1" max="10" id="qtd1">
+    <button class="btn btn-dark btn-md" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Curso html', document.getElementById('qtd1').value, '130.00', 1)"> Comprar </button>
+</div>
+
+<div align="center">
+    <br>Curso Js <strong>R$ 329,90</strong><br>
+    qtd: <input type="number" value="1" min="1" max="10" id="qtd2">
+    <button  class="btn btn-dark btn-md" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Curos Js', document.getElementById('qtd2').value, '329.90', 2)"> Comprar </button>
+</div>
+
+<div align="center">
+    <br>Curso css <strong>R$ 110,90</strong><br>
+    qtd: <input type="number" value="1" min="1" max="10" id="qtd3">
+    <button  class="btn btn-dark btn-md" type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Curso css', document.getElementById('qtd3').value, '110.90', 3)"> Comprar </button>
+</div>
+
+<p align="center">
+    <a href="/compras/carrinho" ><button style="margin: 25px;" class="btn btn-dark btn-md">Ver carrinho de compras </button></a>
+</p>	
+
+{% endblock %} 

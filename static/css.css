@@ -1,0 +1,29 @@
+body,html{
+    height: 100%;
+    overflow: hidden;
+    background-image: url(https://i.imgur.com/X97iVv1.jpg);
+    background-size: cover;
+}
+
+.i-form{
+    background-color: rgba(39, 41, 45, 0.5);
+    border-radius: 20px;
+    padding: 12px;
+}
+
+
+
+.i-form{
+    border-radius: 20px; 
+    padding: 12px;
+}
+
+
+.o-form{
+
+    background-color: brown;
+}
+
+li:hover{
+    background-color: darkgray;
+}
